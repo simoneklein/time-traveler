@@ -2,23 +2,31 @@
 /* I highly recommend keeping this override in your code. */
 * {
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	outline: 1px solid red
+	padding: 10;
+	margin: 10;
 }
 
 body {
-	background-color: yellow;
-	font-family: sans-serif;
-}
-h1 {
-	margin: 20px;
-}
+	background-color: rgb(255, 0, 179);
+	background-image: url('assets/background3.jpg');
+	background-size: cover;
+	font-family: Helvetica;
+	margin: 0 auto;
+	max-width: 50em;
+  }
+
+
+
+
 h2 {
-	margin: 20px;
-}
+		margin-top: 1em;
+		padding-top: 1em;
+		
+	  }
 p {
 	margin: 20px;
+	color: aqua;
+	background-color: black;
 }
 ul {
 	margin: 20px;
