@@ -11,10 +11,25 @@
 	src: url("assets/TMT-LimkinVF.ttf");
 }
 
+.paro {
+	display: flex;
+	flex-direction: column; /* new property! */
+	align-items: center; /* new property! */
+	gap: 20px;
+}
+
+.paro {
+	font-size: 20px;
+	background-color: rgb(197, 124, 195);
+	font color: black;
+	border: 4px dotted green;
+	flex grow: 1
+}
+
 body {
 	font-family: "Limkin", serif;
 	font-variation-settings: "wght" 500, "SRFF" 100;
-	background: radial-gradient(circle, rgba(243,168,221,1) 0%, rgba(152,219,107,1) 20%, rgba(90,222,232,1) 40%, rgba(253,192,58,1) 60%, rgba(166,144,252,1) 80%, rgba(255,115,77,1) 100%);
+	background: radial-gradient(circle, rgb(168, 243, 242) 50%, rgb(245, 181, 181) 40%,rgb(213, 193, 109) 10%);
 	background-size: 100vw 100vh;
 }
 
