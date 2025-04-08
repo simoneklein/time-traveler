@@ -38,7 +38,7 @@
 
 body {
 	font-family: "Bashful", serif;
-	font-variation-settings: "wght" 500, "SRFF" 100;
+	font-variation-settings: "BASH" 100;
 	background: radial-gradient(circle, rgb(168, 243, 242) 50%, rgb(245, 181, 181) 40%,rgb(213, 193, 109) 10%);
 	background-size: 100vw 100vh;
 }
