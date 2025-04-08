@@ -32,12 +32,12 @@
 .paro {
 	font-size: 20px;
 	background-color: rgb(197, 124, 195);
-	font color: black;
+	color: black;
 	border: 4px dotted green;
 }
 
 body {
-	font-family: "Limkin", serif;
+	font-family: "Bashful", serif;
 	font-variation-settings: "wght" 500, "SRFF" 100;
 	background: radial-gradient(circle, rgb(168, 243, 242) 50%, rgb(245, 181, 181) 40%,rgb(213, 193, 109) 10%);
 	background-size: 100vw 100vh;

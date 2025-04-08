@@ -15,10 +15,49 @@ body {
 	max-width: 50em;
   }
 
+  h1 {
+	margin: 20px;
+	font-family: Helvetica;
+	color: aqua;
+	font-size: small;
+  }
+
+
+.firstbutton {
+	background-color: blueviolet;
+	border: 2px solid #04AA6D;
+	align-self:center;
+	position: relative;
+	max-width:1000px
+	width= 100%
+}
+
+.secondbutton {
+	transition-duration: 0.7s;
+  }
+  
+.secondbutton:hover {
+	background-color: #04AA6D; 
+	color: white;
+  }
+
+ button {
+	background-color: blueviolet;
+	border: 2px solid #04AA6D
+}
+
+button {
+	transition-duration: 0.7s;
+  }
+  
+button:hover {
+	background-color: #04AA6D; 
+	color: white;
+  }
 
 
 
-h2 {
+  h2 {
 		margin-top: 1em;
 		padding-top: 1em;
 		
