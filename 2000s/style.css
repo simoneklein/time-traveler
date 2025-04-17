@@ -6,6 +6,24 @@
 	margin: 10;
 }
 
+nav {
+	background-color: #3788d4;
+	padding: 1rem;
+  }
+  
+  nav a {
+	display: inline-block;
+	margin: 0 10px;
+	color: #333;
+	font-weight: bold;
+	transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+	color: #0077cc;
+  }
+
+
 body {
 	background-color: rgb(255, 0, 179);
 	background-image: url('assets/background3.jpg');

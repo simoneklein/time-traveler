@@ -8,37 +8,66 @@
 }
 
 @font-face {
-	font-family: "Bashful";
-	src: url("assets/TMT-BashfulVF.ttf");
+	font-family: "Bungee";
+	src: url("assets/BungeeSpice-Regular.ttf");
 }
 
-.paro {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr; /* new property! */
-	gap: 20px;
-	padding: 20px;
+@font-face {
+	font-family: "Karla";
+	src: url("assets/Karla-VariableFont_wght.ttf");
 }
 
-@media (max-width: 800px) {
+nav {
+    display: flex;
+    gap: 1rem; 
+    background-color: #a4dc71; 
+    padding: 1rem;
+    justify-content: center; 
+    flex-wrap: wrap; 
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #4d1919;
+    font-weight: bold;
+    transition: color 0.3s ease;
+	font-family: "Bungee";
+  }
+
+  nav a:hover {
+    color: #11cc00;
+  }
+
+
+
+@media (max-width: 1000px) {
 	.paro {
 		grid-template-columns: 1fr 1fr;}
 	}
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 		.paro {
 			grid-template-columns: 1fr;
 		}
 	}
 	
 .paro {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	gap: 20px;
+	padding: 20px;
+	font-family: "Karla";
 	font-size: 20px;
-	background-color: rgb(197, 124, 195);
+	background-color: rgba(156, 201, 149, 0.64);
 	color: black;
 	border: 4px dotted green;
+	width: 100%;
+	box-sizing: border-box;
+
 }
 
 body {
-	font-family: "Bashful", serif;
+	font-family: "Karla", serif;
 	font-variation-settings: "BASH" 100;
 	background: radial-gradient(circle, rgb(168, 243, 242) 50%, rgb(245, 181, 181) 40%,rgb(213, 193, 109) 10%);
 	background-size: 100vw 100vh;
@@ -50,6 +79,8 @@ body {
 
 h1 {
 	margin: 20px;
+	font-family: "Bungee";
+
 }
 h2 {
 	margin: 20px;
