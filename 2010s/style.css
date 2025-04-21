@@ -4,17 +4,12 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: "AUTHENTIC";
+	font-family: "Bungee";
 }
 
 @font-face {
 	font-family: "Bungee";
 	src: url("assets/BungeeSpice-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Karla";
-	src: url("assets/Karla-VariableFont_wght.ttf");
 }
 
 nav {
@@ -62,9 +57,7 @@ nav {
 	color: black;
 	border: 4px dotted green;
 	width: 100%;
-	box-sizing: border-box;
-
-}
+}	
 
 body {
 	font-family: "Karla", serif;
